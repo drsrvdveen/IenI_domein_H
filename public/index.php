@@ -39,7 +39,7 @@ Als je zelf een website bouwt maak dan in dezelfde map 'public' een nieuwe map a
                         echo "<ul>";
                         foreach ($files as $file) {
                             if (!in_array($file, $ignored_files)) {
-                                echo '<li><a title="' . $file . '" href="/lesmateriaal/' . $file . '" target="_blank"><strong>' . $file . '</strong></a></li>';
+                                echo '<li><a title="' . $file . '" href="/lesmateriaal/' . $file . '/" target="_blank"><strong>' . $file . '</strong></a></li>';
                             }
                         }
                         ?>
@@ -56,7 +56,7 @@ Als je zelf een website bouwt maak dan in dezelfde map 'public' een nieuwe map a
                         echo "<ul>";
                         foreach ($files as $file) {
                             if (is_dir($file) && !in_array($file, $ignored_files)) {
-                                echo '<li><a title="' . $file . '" href="/' . $file . '" target="_blank"><strong>' . $file . '</strong></a></li>';
+                                echo '<li><a title="' . $file . '" href="/' . $file . '/" target="_blank"><strong>' . $file . '</strong></a></li>';
                                 $found = true;
                             }
                         }
