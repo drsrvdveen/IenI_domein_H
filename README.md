@@ -1,14 +1,6 @@
 # Databases Omgeving
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://vnr-csg.github.io/IenI_domein_H/setup/gitpod-redirect.html)
-
-## Omgeving openen
-
-### Gitpod
-
-Open deze omgeving in Gitpod door op de bovenstaande knop te drukken of (als dat niet werkt) naar `https://gitpod.io/#<url van repository>` te gaan.
-
-### GitHub Codespaces
+## Omgeving openen in GitHub Codespaces
 
 Maak een nieuwe codespace aan door op de 'Code' knop te drukken.
 
