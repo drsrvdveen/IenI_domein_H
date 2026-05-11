@@ -21,7 +21,7 @@ RUN locale-gen en_US.UTF-8
 ENV LANG=en_US.UTF-8
 
 # Create user and allow sudo access without password
-ARG USERNAME=gitpod
+ARG USERNAME=dev
 RUN useradd -l -u 33333 -G sudo -md /home/$USERNAME -s /bin/bash -p $USERNAME $USERNAME
 RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
