@@ -1,5 +1,5 @@
 # Based on Ubuntu LTS
-FROM ubuntu:jammy 
+FROM ubuntu:resolute 
 
 # Install packages
 ARG DEBIAN_FRONTEND=noninteractive
@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
     sudo \
     locales \
     nano \
-    netcat \
+    netcat-traditional \
     vim \
     php php-mysql php-zip php-json php-mbstring \
     mysql-server \
